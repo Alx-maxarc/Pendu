@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import GameComponent from './Component/gameComponent';
+import { useState } from 'react';
+import HomePageComponent from './Component/homePageComponent';
 
 function App() {
+  const [clicked, setClicked] = useState(false);
+
+  const handleClicked = (value) => {
+    setClicked(value);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {clicked ? <GameComponent /> : <HomePageComponent onGame={handleClicked}/>}
     </div>
   );
 }
