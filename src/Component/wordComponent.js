@@ -87,7 +87,7 @@ function WordComponent({ onWordChange }) {
               fontSize: '2em',
               borderBottom: '5px solid black',
               padding: '5px',
-              color: index === 0 || index === newWord.length - 1 ? 'black' : 'inherite',
+              color: index === 0 || index === newWord.length - 1 ? 'black' : '',
               userSelect: 'none'
               }}>{letter}</td>
             ))}
