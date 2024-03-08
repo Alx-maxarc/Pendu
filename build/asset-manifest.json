@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b2932032.css",
+    "main.js": "/static/js/main.6ceb3cb3.js",
+    "static/js/453.bb07f9a8.chunk.js": "/static/js/453.bb07f9a8.chunk.js",
+    "static/media/hanging-rope-1295442_1280.png": "/static/media/hanging-rope-1295442_1280.e9c50ad9b1eab1b19e5f.png",
+    "static/media/pendu-2.png": "/static/media/pendu-2.4353428211e863b47a18.png",
+    "static/media/pendu-5.png": "/static/media/pendu-5.113a484d52d1c3209291.png",
+    "static/media/pendu-3.png": "/static/media/pendu-3.6a7a2c5bf207fcaccca4.png",
+    "static/media/pendu-4.png": "/static/media/pendu-4.29cce93f9ed7c94f8ff9.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.b2932032.css.map": "/static/css/main.b2932032.css.map",
+    "main.6ceb3cb3.js.map": "/static/js/main.6ceb3cb3.js.map",
+    "453.bb07f9a8.chunk.js.map": "/static/js/453.bb07f9a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2932032.css",
+    "static/js/main.6ceb3cb3.js"
+  ]
+}
