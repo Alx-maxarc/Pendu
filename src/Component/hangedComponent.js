@@ -35,31 +35,31 @@ function HangedComponent({ failed }) {
     <div className="container" style={{ display: 'flex', flexDirection: 'column', margin: 'auto', height: '15vh', width: '10vw' }}>
       <img
         src={pendu1}
-        alt="Image"
+        alt="Pendu"
         className='pendu1'
         style={{ transition: 'opacity 0.5s ease-in-out, transform 0.5s ease-in-out', opacity: opacity.pendu1 }}
       />
       <img
         src={pendu2}
-        alt="Image"
+        alt="Pendu"
         className='pendu2'
         style={{ transition: 'opacity 0.5s ease-in-out, transform 0.5s ease-in-out', opacity: opacity.pendu2 }}
       />
       <img
         src={pendu3}
-        alt="Image"
+        alt="Pendu"
         className='pendu3'
         style={{ transition: 'opacity 0.5s ease-in-out, transform 0.5s ease-in-out', opacity: opacity.pendu3 }}
       />
       <img
         src={pendu4}
-        alt="Image"
+        alt="Pendu"
         className='pendu4'
         style={{ transition: 'opacity 0.5s ease-in-out, transform 0.5s ease-in-out', opacity: opacity.pendu4 }}
       />
       <img
         src={pendu5}
-        alt="Image"
+        alt="Pendu"
         className='pendu5'
         style={{ transition: 'opacity 0.5s ease-in-out, transform 0.5s ease-in-out', opacity: opacity.pendu5 }}
       />

@@ -24,9 +24,9 @@ const isLargeScreen = window.innerWidth > 1024;
         <p style={{ display: isLargeScreen ? 'inline' : 'none'}}>(attention même si la première lettre est un 'e' il peut y avoir un autre 'e' dans le mot)</p>
       </div>
       <div style={{ height: '25vh', width: '15vw', display: isLargeScreen ? 'flex' : 'none', flexDirection: 'row',}}>
-        <img src={pendu1} alt="Image" style={{ height: '8vh', width: '5vw' }}/>
+        <img src={pendu1} alt="Pendu" style={{ height: '8vh', width: '5vw' }}/>
         <p>=></p>
-        <img src={pendu} alt="Image"/>
+        <img src={pendu} alt="Pendu"/>
       </div>
       </div>
       <div style={{alignItems: 'center', padding: '10px', justifyContent: 'center'}}>
